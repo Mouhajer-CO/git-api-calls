@@ -1,0 +1,24 @@
+{
+  "name": "git-api-calls",
+  "version": "1.0.0",
+  "description": "Programmatically git calls",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=20.0.0"
+  },
+  "author": "Mouhajer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
